@@ -1,0 +1,28 @@
+@use 'abstracts' as *;
+
+@use 'components/card';
+@use 'components/header';
+@use 'components/button';
+@use 'components/hero';
+@use 'components/about';
+
+body{
+    background-color: $bg-color;
+    background-image: url(/assets/images/pattern-1.png);
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-position: right top;
+}
+
+@media (max-width: 1050px) {
+    .card{
+        padding: 30px 56px 42px;
+    }
+    .cards{
+        grid-template-columns: repeat(1, minmax(240px, 1fr));
+    }
+
+    .card--fullWidth{
+        padding: 30px 56px 42px !important;
+    }
+}

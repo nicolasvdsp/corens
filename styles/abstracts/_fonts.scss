@@ -1,0 +1,67 @@
+//DAVID LIBRE
+@font-face {
+    font-family: DavidLibre;
+    src: url('/assets/fonts/David-Libre/DavidLibre-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: DavidLibre;
+    src: url('/assets/fonts/David-Libre/DavidLibre-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+//TT HOVES
+@font-face {
+    font-family: TTHoves;
+    src: url('/assets/fonts/TT-Hoves/TTHoves-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TTHoves;
+    src: url('/assets/fonts/TT-Hoves/TTHoves-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+body{
+    font-family: DavidLibre;
+}
+
+.number, .number--inline{
+    font-family: TTHoves;
+}
+.number--inline{
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    font-family: TTHoves;
+    font-weight: bold;
+    font-size: 60px;
+}
+h2{
+    font-size: 42px;
+}
+h3{
+    font-size: 28px;
+}
+
+.body{
+    margin-top: 24px;
+    font-family: DavidLibre;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 117.5%;
+}
+
+
+

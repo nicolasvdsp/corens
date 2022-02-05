@@ -1,0 +1,17 @@
+header{
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        background-image: url(/assets/images/logo_lrfc.svg);
+        background-size: 162px 28px;
+        width: 162px;
+        height: 28px;
+    }
+
+    .number{
+        font-weight: bold;
+    }
+}

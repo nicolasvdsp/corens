@@ -1,0 +1,283 @@
+/* ---------- RESET.CSS ----------*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: black;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ---------- END RESET.CSS ----------*/
+@font-face {
+  font-family: DavidLibre;
+  src: url("/assets/fonts/David-Libre/DavidLibre-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: DavidLibre;
+  src: url("/assets/fonts/David-Libre/DavidLibre-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: TTHoves;
+  src: url("/assets/fonts/TT-Hoves/TTHoves-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: TTHoves;
+  src: url("/assets/fonts/TT-Hoves/TTHoves-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  font-family: DavidLibre;
+}
+
+.number, .number--inline {
+  font-family: TTHoves;
+}
+
+.number--inline {
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: TTHoves;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.body {
+  margin-top: 24px;
+  font-family: DavidLibre;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 117.5%;
+}
+
+.cards {
+  display: -ms-grid;
+  display: grid;
+  margin: 96px 120px;
+  -ms-grid-columns: minmax(240px, 1fr) 30px minmax(240px, 1fr);
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
+  gap: 30px;
+}
+.cards .card {
+  padding: 30px 56px 42px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+}
+.cards .card .card__text {
+  font-size: 18px;
+  text-align: center;
+}
+.cards .card--highlight {
+  border: solid #24D388 4px;
+}
+.cards .card--fullWidth {
+  grid-column: 1/-1;
+  padding: 30px 185px 42px;
+}
+
+header {
+  margin: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .logo {
+  background-image: url(/assets/images/logo_lrfc.svg);
+  background-size: 162px 28px;
+  width: 162px;
+  height: 28px;
+}
+header .number {
+  font-weight: bold;
+}
+
+.btn {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 36px;
+  border: 3px solid #24D388;
+  background-color: #E3E8F4;
+}
+
+.heroSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.heroSection h1 {
+  text-align: center;
+  width: 76%;
+}
+.heroSection p {
+  width: 690px;
+  line-height: 117.5%;
+  text-align: center;
+}
+
+.about {
+  padding: 79px 0px 62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+.about p {
+  width: 45vw;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.about .member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about .member .member__img {
+  height: 400px;
+  margin-bottom: 16px;
+}
+.about .member .member__details span {
+  font-family: TTHoves;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 5px;
+}
+.about .member .member__details q {
+  font-family: DavidLibre;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+body {
+  background-color: #E3E8F4;
+  background-image: url(/assets/images/pattern-1.png);
+  background-repeat: no-repeat;
+  background-size: 750px;
+  background-position: right top;
+}
+
+@media (max-width: 1050px) {
+  .card {
+    padding: 30px 56px 42px;
+  }
+
+  .cards {
+    -ms-grid-columns: (minmax(240px, 1fr))[1];
+    grid-template-columns: repeat(1, minmax(240px, 1fr));
+  }
+
+  .card--fullWidth {
+    padding: 30px 56px 42px !important;
+  }
+}

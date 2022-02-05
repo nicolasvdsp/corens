@@ -1,0 +1,16 @@
+@use 'abstracts' as *;
+
+.heroSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        text-align: center;
+        width: 76%;
+    }
+    p{
+        width: 690px;
+        line-height: 117.5%;
+        text-align: center;
+    }
+}
