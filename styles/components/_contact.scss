@@ -1,0 +1,18 @@
+@use 'abstracts' as *;
+
+.contact{
+    padding: 60px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    border-bottom: solid $secondary 12px;
+
+    
+        text-align: center;
+    
+    :last-child{
+        margin-top: 12px;
+    }
+}
