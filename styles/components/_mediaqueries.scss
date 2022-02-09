@@ -1,0 +1,54 @@
+@use 'abstracts' as *;
+
+@media (max-width: 1360px) {
+    .heroSection h1 br{
+        display: none;
+    }
+}
+
+@media (max-width: 1050px) {
+    .heroSection p{
+        width: 75%;
+    }
+
+    .card{
+        padding: 30px 56px 42px;
+    }
+    .cards{
+        grid-template-columns: repeat(1, minmax(240px, 1fr));
+    }
+
+    .card--fullWidth{
+        padding: 30px 56px 42px !important;
+    }
+}
+
+@media (max-width: 770px) {
+    header{
+        .logo{
+            background-size: 120px 21px;
+            width: 120px;
+            height: 21px;
+        }
+
+        .btn{
+            padding: 10px 12px;
+            font-size: 14px;
+        }
+    }
+
+    h1{
+        font-size: 42px;
+    }
+    .heroSection p{
+        width: 65%;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    .body{
+        font-size: 20px;
+    }
+}

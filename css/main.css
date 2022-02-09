@@ -142,6 +142,9 @@ h3 {
           align-items: center;
   gap: 25px;
 }
+.cards .card h3 {
+  text-align: center;
+}
 .cards .card .card__text {
   font-size: 18px;
   text-align: center;
@@ -273,22 +276,23 @@ header .number {
       -ms-flex-align: center;
           align-items: center;
   gap: 30px;
-  border-bottom: solid #24D388 12px;
   text-align: center;
+  border-bottom: solid #24D388 12px;
 }
 .contact :last-child {
   margin-top: 12px;
 }
 
-body {
-  background-color: #E3E8F4;
-  background-image: url(/assets/images/pattern-1.png);
-  background-repeat: no-repeat;
-  background-size: 750px;
-  background-position: right top;
+@media (max-width: 1360px) {
+  .heroSection h1 br {
+    display: none;
+  }
 }
-
 @media (max-width: 1050px) {
+  .heroSection p {
+    width: 75%;
+  }
+
   .card {
     padding: 30px 56px 42px;
   }
@@ -301,4 +305,38 @@ body {
   .card--fullWidth {
     padding: 30px 56px 42px !important;
   }
+}
+@media (max-width: 770px) {
+  header .logo {
+    background-size: 120px 21px;
+    width: 120px;
+    height: 21px;
+  }
+  header .btn {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  .heroSection p {
+    width: 65%;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .body {
+    font-size: 20px;
+  }
+}
+body {
+  background-color: #E3E8F4;
+  background-image: url(/assets/images/pattern-1.png);
+  background-repeat: no-repeat;
+  background-size: 750px;
+  background-position: right top;
 }
