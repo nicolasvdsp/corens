@@ -343,6 +343,16 @@ header .number {
   .body {
     font-size: 20px;
   }
+
+  .about .member .member__img {
+    height: 50vw;
+  }
+  .about .member .member__details span {
+    font-size: 14px;
+  }
+  .about .member .member__details q {
+    font-size: 16px;
+  }
 }
 body {
   background-color: #E3E8F4;

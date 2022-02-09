@@ -61,4 +61,18 @@
     .body{
         font-size: 20px;
     }
+
+    .about .member{
+        .member__img{
+            height: 50vw;
+        }
+        .member__details{
+            span{
+                font-size: 14px;
+            }
+            q{
+                font-size: 16px;
+            }
+        }
+    } 
 }
