@@ -25,6 +25,7 @@
 
 @media (max-width: 770px) {
     header{
+        margin: 30px;
         .logo{
             background-size: 120px 21px;
             width: 120px;
@@ -38,7 +39,11 @@
     }
 
     .cards{
-        margin: 96px 70px;
+        margin: 96px 30px;
+        .card{
+            padding-left: 28px !important;
+            padding-right: 28px !important;
+        }
         .card .card__text{
             font-size: 16px;
         }
@@ -62,11 +67,15 @@
         font-size: 20px;
     }
 
-    .about .member{
-        .member__img{
+    .about{
+        p{
+            width: fit-content;
+            margin: 30px;
+        }
+        .member .member__img{
             height: 50vw;
         }
-        .member__details{
+        .member .member__details{
             span{
                 font-size: 14px;
             }

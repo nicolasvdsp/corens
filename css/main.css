@@ -307,6 +307,9 @@ header .number {
   }
 }
 @media (max-width: 770px) {
+  header {
+    margin: 30px;
+  }
   header .logo {
     background-size: 120px 21px;
     width: 120px;
@@ -318,7 +321,11 @@ header .number {
   }
 
   .cards {
-    margin: 96px 70px;
+    margin: 96px 30px;
+  }
+  .cards .card {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
   }
   .cards .card .card__text {
     font-size: 16px;
@@ -344,6 +351,12 @@ header .number {
     font-size: 20px;
   }
 
+  .about p {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 30px;
+  }
   .about .member .member__img {
     height: 50vw;
   }
