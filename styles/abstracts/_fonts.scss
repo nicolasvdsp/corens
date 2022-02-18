@@ -30,19 +30,18 @@
 }
 
 
+//Crimson Pro
+@font-face {
+    font-family: CrimsonPro;
+    src: url('/assets/fonts/Crimson-Pro/CrimsonPro-VariableFont_wght.ttf');
+}
+
 
 
 body{
     font-family: DavidLibre;
 }
 
-.number, .number--inline{
-    font-family: TTHoves;
-    font-weight: normal;
-}
-.number--inline{
-    font-size: 16px;
-}
 
 h1, h2, h3{
     font-family: TTHoves;
@@ -64,5 +63,8 @@ h3{
     line-height: 117.5%;
 }
 
+.number{
+    font-family: CrimsonPro;
+}
 
 

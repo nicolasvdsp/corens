@@ -84,17 +84,12 @@ a {
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: CrimsonPro;
+  src: url("/assets/fonts/Crimson-Pro/CrimsonPro-VariableFont_wght.ttf");
+}
 body {
   font-family: DavidLibre;
-}
-
-.number, .number--inline {
-  font-family: TTHoves;
-  font-weight: normal;
-}
-
-.number--inline {
-  font-size: 16px;
 }
 
 h1, h2, h3 {
@@ -117,6 +112,10 @@ h3 {
   font-weight: normal;
   font-size: 22px;
   line-height: 117.5%;
+}
+
+.number {
+  font-family: CrimsonPro;
 }
 
 .cards {
@@ -175,9 +174,6 @@ header .logo {
   width: 162px;
   height: 28px;
 }
-header .number {
-  font-weight: bold;
-}
 
 .btn {
   -webkit-box-sizing: border-box;
@@ -192,6 +188,11 @@ header .number {
   height: 36px;
   border: 3px solid #24D388;
   background-color: #E3E8F4;
+}
+
+.btn--number {
+  font-family: TTHoves;
+  font-weight: bold;
 }
 
 .heroSection {
