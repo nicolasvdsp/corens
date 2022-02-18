@@ -366,6 +366,11 @@ header .number {
   .about .member .member__details q {
     font-size: 16px;
   }
+
+  .contact {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 body {
   background-color: #E3E8F4;
