@@ -280,6 +280,9 @@ header .logo {
   text-align: center;
   border-bottom: solid #24D388 12px;
 }
+.contact div a {
+  display: block;
+}
 .contact :last-child {
   margin-top: 12px;
 }

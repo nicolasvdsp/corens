@@ -10,6 +10,10 @@
 
     border-bottom: solid $secondary 12px;
 
+    div a{
+        display: block;
+    }
+
     :last-child{
         margin-top: 12px;
     }
